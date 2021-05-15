@@ -1,0 +1,29 @@
+{
+  "name": "support-bot",
+  "version": "1.0.0",
+  "description": "A simple and lightweight Discord support bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gideon-foxo/support-bot.git"
+  },
+  "keywords": [
+    "Discord-bot",
+    "Discord-support-bot",
+    "Discordbot"
+  ],
+  "author": "Gideon foxo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gideon-foxo/support-bot/issues"
+  },
+  "homepage": "https://github.com/Gideon-foxo/support-bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1"
+  }
+}
