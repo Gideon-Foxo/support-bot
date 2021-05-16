@@ -31,7 +31,7 @@ All commands start with a prefix and by default the prefix is set to s!. This ca
 
 3. CD over to this project on your system and run `npm i`.
 
-4. Input all of your settings into settings.js
+4. Input all of your settings into [settings.js](https://github.com/Gideon-foxo/support-bot/blob/main/src/config/settings.js) (src -> config -> settings.js)
 
 5. CD over to the src folder and run `node index.js` to lunch the bot. It is highly recommended you use a program such as [pm2](https://www.npmjs.com/package/pm2) to run this app.
 
