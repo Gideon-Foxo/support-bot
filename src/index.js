@@ -177,7 +177,7 @@ client.on('message', async msg => {
                         const message = await channel.send(`<@${msg.author.id}> ` + settings.supportResponses.message)
 
                         // If this message is to delete after x amount of time then delete it
-                        if (settings.supportResponses.deleteTime) {
+                        if (settings.supportResponses.deleteTime && settings.supportResponses.deleteTime != 0) {
                             await wait(settings.supportResponses.deleteTime * 1000)
                             await message.delete()
                         }
