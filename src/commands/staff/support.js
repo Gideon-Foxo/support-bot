@@ -1,6 +1,8 @@
 module.exports = {
 
 	name: 'support',
+    args: true,
+    showArgs: "@User/ID",
 	description: 'I am the only real command',
 	async execute(msg, args, stuff) {
 

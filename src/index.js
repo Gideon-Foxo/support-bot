@@ -96,7 +96,7 @@ client.on('message', async msg => {
 
 
     // If the command needs args and none are provided
-    if (command.args && args.length) return await msg.channel.send(`This command requires the arguments **${command.args}** in order to be ran!`)
+    if (command.args && args.length) return await msg.channel.send(`This command requires the arguments **${command.showArgs}** in order to be ran!`)
 
 
     // This is an object that we pass a bunch of data into the command
