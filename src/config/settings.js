@@ -42,7 +42,7 @@ const settings = {
     invalidNumber: "Invalid number! Please respond with a valid number.",
 
     // This sets the time to delete response messages. Time is in seconds.
-    deleteTime: "30",
+    deleteTime: 30,
 
 
     // These are the responses that are replied in the support channel. You can add as many of these as you like but they must be real numbers. Also make sure you add a comma after each item.
