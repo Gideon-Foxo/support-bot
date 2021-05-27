@@ -1,6 +1,6 @@
 {
   "name": "support-bot",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple and lightweight Discord support bot",
   "main": "index.js",
   "scripts": {
