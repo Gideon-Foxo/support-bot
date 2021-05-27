@@ -10,6 +10,7 @@ const { promisify } = require('util')
 
 // Define our files 
 const config = require('./config/config.js');
+const pack = require('../package.json');
 const settings = require('./config/settings.js');
 const token = require('./config/token.json');
 
@@ -108,13 +109,14 @@ client.on('message', async msg => {
         embedPerms: embedPerms,
         config: config,
         settings: settings,
+        pack: pack,
     }
 
 
 
     // This runs the command
 	try {
-		client.commands.get(command).execute(msg, args, stuff);
+		command.execute(msg, args, stuff);
         // If any error try to catch it
 	} catch (err) {
 		config.log.error(require("util").inspect(err))
