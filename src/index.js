@@ -78,11 +78,13 @@ client.on('message', async msg => {
 	if (!msg.content.startsWith(settings.prefix) || msg.author.bot) return await runSupport();
 
     // Defines command if it exists
-	const command = args.shift().toLowerCase();
+	const commandName = args.shift().toLowerCase();
 
 
     // If command doesn't exist run support func and return.
-	if (!client.commands.has(command)) return await runSupport();
+	if (!client.commands.has(commandName)) return await runSupport();
+
+    const command = client.commands.get(commandName);
 
 
     // If bot lacks send message perms return and console log a warning
