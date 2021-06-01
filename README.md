@@ -38,4 +38,4 @@ All commands start with a prefix and by default the prefix is set to s!. This ca
 
 <h1 align="center">Contact/Support/Feedback</h1>
 
-If you need support or would like to add feedback please either [join Gideon's server](https://discord.gg/QW6ab2NAj7) or [create a new issue](https://github.com/Gideon-foxo/support-bot/issues).
+If you need support or would like to add feedback please either [join Gideon's server](https://discord.gg/G2sWsCA8nS) or [create a new issue](https://github.com/Gideon-foxo/support-bot/issues).
