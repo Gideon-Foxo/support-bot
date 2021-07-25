@@ -39,3 +39,6 @@ All commands start with a prefix and by default the prefix is set to s!. This ca
 <h1 align="center">Contact/Support/Feedback</h1>
 
 If you need support or would like to add feedback please either [join Gideon's server](https://discord.gg/G2sWsCA8nS) or [create a new issue](https://github.com/Gideon-foxo/support-bot/issues).
+
+**Note** work on [v2](https://github.com/Gideon-foxo/support-bot/issues/1) will only happen after Discord.js v13 becomes stable to natively support buttons and other new goodies.
+
