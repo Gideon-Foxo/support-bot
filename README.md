@@ -35,6 +35,17 @@ All commands start with a prefix and by default the prefix is set to s!. This ca
 
 5. CD over to the src folder and run `node index.js` to lunch the bot. It is highly recommended you use a program such as [pm2](https://www.npmjs.com/package/pm2) to run this app.
 
+<h2 align="center">Running with Docker</h2>
+
+1. Install [Docker](https://www.docker.com)
+
+2. Clone the repository
+
+3. Configure the bot (see step 4 above)
+
+4. Build Docker image: `docker build -t support-bot .`
+
+5. Run the Docker image: `docker run --rm support-bot`
 
 <h1 align="center">Contact/Support/Feedback</h1>
 
