@@ -22,7 +22,7 @@ Support bot also allows for native logs. Easily see what questions people ask an
 
 4. Input all of your settings into [settings.js](https://github.com/Gideon-foxo/support-bot/blob/main/src/config/support-settings.js) (src -> config -> support-settings.js). Optionally, update the colors or playing status in the [config](https://github.com/Gideon-foxo/support-bot/blob/main/src/config/config.js) file (src -> config -> config.js)
 
-5. Put your token in [token.json]() (src -> config -> token.json). If you are confused by what this means please read [this](https://discord.com/developers/docs/getting-started#step-1-creating-an-app) guide.
+5. Put your token in [token.json](https://github.com/Gideon-Foxo/support-bot/blob/v2/src/config/token.json) (src -> config -> token.json). If you are confused by what this means please read [this](https://discord.com/developers/docs/getting-started#step-1-creating-an-app) guide.
 
 6. CD over to the src folder and run `node index.js` to lunch the bot. It is highly recommended you use a program such as [pm2](https://www.npmjs.com/package/pm2) to run this app.
 
