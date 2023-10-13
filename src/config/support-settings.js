@@ -7,7 +7,7 @@ const supportConfig = {
         description: "Demo help desk. Need help? You came to the right place, to get started just use the select menu below!\n\nSupport can setup to add the user to a private thread or add a role to the user, or both!",
         //thumbnail: "image URL for thumbnail in top right corner",
         //image: "image URL for big image at bottom",
-        //footer: "This is the small text at the bottom of the embed, it does not support markdown."
+        footer: "This is the small text at the bottom of the embed, it does not support markdown."
     },
 
 
@@ -15,10 +15,10 @@ const supportConfig = {
     support: {
         disableSupport: false, // Disables support
         createThread: true, // Creates a private thread. If you want to change how requestMessage and supportMessage work modify the strings in the support function in interactions.js
-        supportRole: "1162142470159741029", //"ID of role here", // Role given to the user if extra support is requested
+        supportRole: "ID of role here", // Role given to the user if extra support is requested
         requestMessage: "A support ticket has been made", // If create thread is enabled then the created thread will be automatically added to the end of the default message.
         supportMessage: "We will be with you shortly, in the meantime please ask you question in as much detail as you can!",
-        //supportChannel: "995986581460615178", //"Support Message Channel ID",
+        supportChannel: "Support Message Channel ID",
  
 
         selectMenuName: "Need help? Select a question!",
@@ -29,8 +29,8 @@ const supportConfig = {
         },
 
 
-        loggingChannel: "1162143076362502255", //"ID of logging channel", // Channel for logging all questions and support status
-        notificationRole: "1162142406821564549", //"ID of staff role", // Role for staff
+        loggingChannel: "ID of logging channel", // Channel for logging all questions and support status
+        notificationRole: "ID of staff role", // Role for staff
     },
 
 
