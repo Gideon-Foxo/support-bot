@@ -26,7 +26,7 @@ module.exports = {
         }
 
         // If member does not have the support role
-        if (!member.roles.resolveId(settings.support.supportRole)) {
+        if (!member.roles.cache.has(settings.support.supportRole)) {
 
             const embed = new Discord.EmbedBuilder()
             .setColor(config.red)

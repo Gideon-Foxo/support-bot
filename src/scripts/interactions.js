@@ -33,7 +33,7 @@ async function handler (i) {
             try { 
 
                 // If member already has the support role
-                if (i.member.roles.resolveId(settings.support.supportRole)) {
+                if (i.member.roles.cache.has(settings.support.supportRole)) {
 
                     const embed = new Discord.EmbedBuilder()
                     .setColor(config.red)
