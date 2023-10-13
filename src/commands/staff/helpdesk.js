@@ -1,6 +1,7 @@
 const config = require("../../config/config.js");
 const settings = require("../../config/support-settings.js");
 const Discord = require('discord.js');
+const log = require('dbot-console-logger');
 
 module.exports = {
 
