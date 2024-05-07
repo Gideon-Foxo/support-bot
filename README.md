@@ -8,6 +8,8 @@ Support bot uses a select menu that allows you to setup 25 questions. Because it
 
 ![Its a gif!](https://github.com/Gideon-Foxo/support-bot/assets/50521677/f180e695-0aca-4559-a3ab-fc15e85a4448)
 
+If the demo does not load [click here](https://github.com/Gideon-Foxo/support-bot/assets/50521677/f180e695-0aca-4559-a3ab-fc15e85a4448)
+
 Support bot also allows for native logs. Easily see what questions people ask and keep track of who needs support.
 
 ![Image of logs](https://github.com/Gideon-Foxo/support-bot/assets/50521677/99c8ce7c-976c-4225-b392-46b76f7f260c)
