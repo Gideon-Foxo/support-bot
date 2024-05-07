@@ -6,11 +6,11 @@ A simple yet customizable and powerful lightweight Discord bot to help automate 
 
 Support bot uses a select menu that allows you to setup 25 questions. Because it sends the user a ephemeral message (blue Clyde message) they can look at the question for however long the user needs!
 
-![Its a gif!](https://cdn.discordapp.com/attachments/833171605366243330/1162146123134283856/brave_hbSg8Wltqp.gif?ex=653adfeb&is=65286aeb&hm=834585c4b59c31efeec3a6f98557d19618f3261f0c2fde8f8618a5eb7ea017bf&)
+![Its a gif!](https://github.com/Gideon-Foxo/support-bot/assets/50521677/f180e695-0aca-4559-a3ab-fc15e85a4448)
 
 Support bot also allows for native logs. Easily see what questions people ask and keep track of who needs support.
 
-![Image of logs](https://cdn.discordapp.com/attachments/833171605366243330/1162148439111520357/Discord_2GF30kyz3h.png?ex=653ae213&is=65286d13&hm=c41eaaf4a2bf45308c09700f252f552281723950b6b6a23b91dc40f2fcf99406&)
+![Image of logs](https://github.com/Gideon-Foxo/support-bot/assets/50521677/99c8ce7c-976c-4225-b392-46b76f7f260c)
 
 <h1 align="center">Setup and Installation</h1>
 
@@ -32,4 +32,3 @@ Support bot also allows for native logs. Easily see what questions people ask an
 To leave suggestions or request support please join [our support server](https://discord.gg/G2sWsCA8nS) or [create a new issue](https://github.com/Gideon-foxo/support-bot/issues).
 
 If you would like to support my project you can donate at [ko-fi](https://foxo.gay/donate) or directly on [github](https://github.com/sponsors/Gideon-Foxo).
-
